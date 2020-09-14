@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#simon {
+    margin: 200px auto;
+    border: black solid 5px;
+    border-radius: 50%;
+    width: fit-content;
+    display: flex;
+    padding: 10px;
+    background-color: gray;
+}
+#upper {
+    flex-direction: row;
+}
+#lower {
+    flex-direction: row;
+}
+
+.game-button {
+    height: 200px;
+    width: 200px;
+}
+#red-button {
+    border: darkred solid 5px;
+    border-top-left-radius: 100%;
+    background-color: red;
+}
+#blue-button {
+    border: darkblue solid 5px;
+    border-bottom-left-radius: 100%;
+    background-color: blue;
+}
+#yellow-button {
+    border: gold solid 5px;
+    border-top-right-radius: 100%;
+    background-color: yellow;
+}
+#green-button {
+    border: darkgreen solid 5px;
+    border-bottom-right-radius: 100%;
+    background-color: green;
+}
